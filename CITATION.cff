@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+
+message: >
+  If you use the Chatwood Labs Grid Suite for BOUT++ in published work,
+  please cite the software using the metadata below.
+
+title: "Chatwood Labs Grid Suite for BOUT++"
+
+version: "2.0.0"
+date-released: 2026-08-26
+
+authors:
+  - family-names: Chatwood
+    given-names: Martin
+    affiliation: Chatwood Labs Ltd
+    email: martin@chatwoodlabs.com
+
+repository-code: "https://github.com/Chatwood-Labs/bout-grid-suite"
+url: "https://github.com/Chatwood-Labs/bout-grid-suite"
+
+license: MIT
+
+keywords:
+  - tokamak
+  - BOUT++
+  - plasma simulation
+  - grid generation
+  - grid diagnostics
+  - scientific computing
+  - MHD
+  - magnetic confinement
+  - computational plasma physics
+  - fusion
+
+abstract: >
+  An integrated desktop workflow for designing, generating, inspecting and
+  validating analytic tokamak grids for BOUT++. The Grid Suite combines an
+  interactive poloidal cross-section designer with analytic and custom-boundary 
+  axisymmetric grid generation, NetCDF output, automated geometry and metric 
+  diagnostics, magnetic-field checks, visualisation, and structured diagnostic 
+  reporting for controlled simulation studies, numerical testing, and reproducible
+  BOUT++ workflows.

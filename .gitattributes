@@ -1,0 +1,19 @@
+# Normalise text files
+* text=auto
+
+# Source and project files use LF consistently
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.cff text eol=lf
+*.sh text eol=lf
+
+# Scientific data and images are binary
+*.nc binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
